@@ -3,30 +3,131 @@
 - taxonomy: 常用推荐
   icon: far fa-star
   links: 
-    - title: QQ 邮箱
-      logo: qq邮箱.png
-      url: http://mail.qq.com/
-      description: 腾讯 QQ 邮箱。
-    - title: 开源中国
-      logo: 开源中国.jpg
-      url: https://www.oschina.net/
-      description: 中文开源技术交流社区。
-    - title: 公众号平台
-      logo: 微信公众号.png
-      url: https://mp.weixin.qq.com/
-      description: 再小的个体也有自己的品牌。
     - title: GitHub
       logo: github.png
       url: https://github.com/
       description: GitHub 开源社区。
+    - title: LinuxDo
+      logo: linuxdo.png
+      url: https://linux.do
+      description: LinuxDo，(与Linux学习与交流无关🐒)。
+    - title: HelloGithub
+      logo: hellogithub.webp
+      url: https://hellogithub.com/
+      description: HelloGitHub，开源项目推荐与交流社区。
+    - title: 开源中国
+      logo: 开源中国.jpg
+      url: https://www.oschina.net/
+      description: 中文开源技术交流社区。
     - title: 知乎
       logo: 知乎.png
       url: https://www.zhihu.com/
       description: 知乎社区。
-    - title: V2EX
-      logo: v2ex.jpg
-      url: https://www.v2ex.com/
-      description: V2EX 创意工作者的社区。
+    - title: 哔哩哔哩
+      logo: 哔哩哔哩.png
+      url: https://www.bilibili.com/
+      description: Bilibili 视频弹幕网站。
+    - title: QQ 邮箱
+      logo: qq邮箱.png
+      url: http://mail.qq.com/
+      description: 腾讯 QQ 邮箱。
+    - title: 腾讯企业邮箱
+      logo: 企业邮箱.png
+      url: http://mail.qq.com/
+      description: 腾讯企业邮箱。
+
+- taxonomy: 资讯学习
+  icon: fas fa-pencil-alt fa-lg
+  list: 
+    - term: 博客论坛
+      links:
+        - title: Hacker News
+          url: https://news.ycombinator.com/
+          logo: hacker-news.jpg
+          description: 一家关于计算机黑客和创业公司的社会化新闻网站。
+        - title: 阮一峰的网络日志
+          url: http://www.ruanyifeng.com/blog/
+          logo: 阮一峰.png
+          description: 阮一峰，科技爱好者周刊。
+        - title: 酷壳
+          url: https://www.coolshell.cn/
+          logo: 'coolshell.png'
+          description: 酷 壳 – CoolShell。
+        - title: V2EX
+          logo: v2ex.jpg
+          url: https://www.v2ex.com/
+          description: V2EX 创意工作者的社区。
+    - term: 国外资讯
+      links:
+        - title: Youtube(油管)
+          url: https://www.youtube.com/
+          logo: youtube.png
+          description: 世界最大的视频分享网站。
+        - title: Wikipedia
+          url: https://www.wikipedia.org/
+          logo: wikipedia.png
+          description: Wikipedia，自由的百科全书。
+        - title: Reddit
+          url: https://www.reddit.com/
+          logo: reddit.png
+          description: Reddit，网络社区新闻聚合网站。
+        - title: X (前 Twitter)
+          url: https://x.com/
+          logo: x.png
+          description: X，前 Twitter 社交网站。
+        - title: Medium
+          url: https://medium.com/
+          logo: medium.png
+          description: Medium，优质文章发布平台。
+        - title: Stack Overflow
+          url: https://stackoverflow.com/
+          logo: stack-overflow.png
+          description: Stack Overflow，程序员问答社区。
+    - term: 资讯书籍
+      links:
+        - title: Z-library
+          url: https://zh.z-library.sk/
+          logo: z-library.png
+          description: The world's largest ebook library.
+        - title: 书栈网
+          url: https://www.bookstack.cn/
+          logo: 书栈网.jpg
+          description: IT 互联网开源编程书籍免费阅读与下载。
+        - title: Google Font
+          url: https://fonts.google.com/
+          logo: googlefont.png
+          description: Making the web more beautiful, fast, and open through great typography.
+    - term: 线上书本
+      links:
+        - title: 你缺失的那门计算机课
+          logo: computer-missing.png
+          url: https://www.criwits.top/missing/
+          description: 零门槛、易理解、有深度，与时俱进、开放共享
+        - title: Linux101 教程
+          logo: LUG-USTC-Logo.png
+          url: https://101.lug.ustc.edu.cn/
+          description: Linux101 - 中国科学技术大学 Linux 用户协会出品的 Linux 入门教程。
+        - title: Linux201进阶教程
+          logo: LUG-USTC-Logo.png
+          url: https://201.ustclug.org/
+          description: Linux 101 的进阶版
+        - title: Pytorch实用教程
+          logo: pytorch.webp
+          url: https://tingsongyu.github.io/PyTorch-Tutorial-2nd/
+          description: Pytorch实用教程。
+        - title: 面向初学者的 OpenCV-Python 教程
+          logo: pythoncv.png
+          url: https://codec.wang/docs/opencv/
+          description: 面向初学者的 OpenCV-Python 教程。
+        - title: TheLinux Command Line中文版
+          logo: linux.png
+          url: https://www.kancloud.cn/thinkphp/linux-command-line/39431
+          description: A Complete Introduction。
+        - title: 通往AGI之路
+          logo: AGI.jpg
+          url: https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e
+          description: 人工智能学习的知识库与社区平台，提供系统全面的 AI 学习路径，整合资源、组织实践活动
+
 - taxonomy: 科研办公
   icon: fas fa-flask fa-lg
   list:
@@ -44,9 +145,38 @@
           logo: 华为云.png
           url: https://www.huaweicloud.com/
           description: 提供云计算服务+智能，见未来-华为云。
+       
+- taxonomy: 素材资源
+  icon: far fa-folder-open fa-lg
+  list:
+    - term: 网盘资源
+      links:
+        - title: 百度网盘
+          logo: 百度网盘.jpg
+          url: http://pan.baidu.com/
+          description: https://pan.baidu.com/.
+        - title: 阿里云盘
+          logo: 阿里云盘.png
+          url: https://www.aliyundrive.com/
+          description: 阿里云盘，你的数字世界。
+        - title: 坚果云
+          logo: 坚果云.png
+          url: https://www.jianguoyun.com/
+          description: 坚果云官网。
+        - title: 天翼云盘
+          logo: 天翼云盘.jpg
+          url: https://cloud.189.cn/
+          description: 家庭云|网盘|文件备份|资源分享。
+
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
   list:
+    - term: 在线影视站
+      links: 
+        - title: LibreTV
+          logo: LibreTV.png
+          url: https://jiacheng.webn.cc/
+          description: LibreTV，免费影视网站。需要登录密码。
     - term: 影音视频
       links:
         - title: 腾讯视频
@@ -73,56 +203,3 @@
           logo: 网易云音乐.jpg
           url: https://music.163.com/
           description: 163 网易云音乐。
-   
-      
-- taxonomy: 素材资源
-  icon: far fa-folder-open fa-lg
-  list:
-    - term: 网盘资源
-      links:
-        - title: 百度网盘
-          logo: 百度网盘.jpg
-          url: http://pan.baidu.com/
-          description: https://pan.baidu.com/.
-        - title: 阿里云盘
-          logo: 阿里云盘.png
-          url: https://www.aliyundrive.com/
-          description: 阿里云盘，你的数字世界。
-        - title: 坚果云
-          logo: 坚果云.png
-          url: https://www.jianguoyun.com/
-          description: 坚果云官网。
-        - title: 天翼云盘
-          logo: 天翼云盘.jpg
-          url: https://cloud.189.cn/
-          description: 家庭云|网盘|文件备份|资源分享。
-
-- taxonomy: 资讯学习
-  icon: fas fa-pencil-alt fa-lg
-  list: 
-    - term: 资讯书籍
-      links:
-        - title: 书栈网
-          url: https://www.bookstack.cn/
-          logo: 书栈网.jpg
-          description: IT 互联网开源编程书籍免费阅读与下载。
-        - title: Google Font
-          url: https://fonts.google.com/
-          logo: googlefont.png
-          description: Making the web more beautiful, fast, and open through great typography.
-    - term: 博客论坛
-      links:
-        - title: Hacker News
-          url: https://news.ycombinator.com/
-          logo: hacker-news.jpg
-          description: 一家关于计算机黑客和创业公司的社会化新闻网站。
-        - title: 阮一峰的网络日志
-          url: http://www.ruanyifeng.com/blog/
-          logo: 阮一峰.png
-          description: 阮一峰，科技爱好者周刊。
-        - title: 酷壳
-          url: https://www.coolshell.cn/
-          logo: ''
-          description: 酷 壳 – CoolShell。
-    - term: 视频教程
-      links:

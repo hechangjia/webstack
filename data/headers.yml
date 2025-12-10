@@ -1,6 +1,6 @@
 - item: 首页
   icon: fa fa-home
-  link: "./"
+  link: "/"
 
 - item: 作者
   icon: fa fa-book
@@ -8,7 +8,7 @@
 
 - item: 关于
   icon: fa fa-cog
-  link: ""
+  link: "/about"
   list:
     - name: 教程
       url: https://github.com/hechangjia
